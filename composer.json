@@ -9,6 +9,9 @@
     ],
     "require": {},
     "autoload": {
+        "files": [
+            "app/Helpers/functions.php"
+        ],
         "psr-4": {
             "ETI\\": "src/eti/",
             "App\\": "app/"
