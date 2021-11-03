@@ -11,5 +11,7 @@ require_once '../vendor/autoload.php';
 //$home = new HomeController();
 //var_dump($home->index());
 
-var_dump(getTrim("  f-nely "));
+//var_dump(getTrim("  f-nely "));
 
+$object = new MyClass;
+var_dump($object->myMethod());
