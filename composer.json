@@ -12,6 +12,10 @@
         "files": [
             "app/Helpers/functions.php"
         ],
+        "classmap": [
+            "ClassUtils/",
+            "configs/"
+        ],
         "psr-4": {
             "ETI\\": "src/eti/",
             "App\\": "app/"
