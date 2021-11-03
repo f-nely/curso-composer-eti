@@ -7,7 +7,9 @@
             "email": "nelly.nf54@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "monolog/monolog": "^2.3"
+    },
     "autoload": {
         "files": [
             "app/Helpers/functions.php"
